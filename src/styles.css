@@ -1,9 +1,3 @@
-body {
-  margin: auto 350px;
-  border: 3px solid #38598b;
-  border-radius: 6px;
-}
-
 h1,
 h2,
 p {
@@ -145,4 +139,17 @@ h1 {
 .temperature {
   font-size: 25px;
   color: #060608;
+}
+.app-border {
+  margin: auto 350px;
+  border: 3px solid #38598b;
+  border-radius: 6px;
+}
+.code-link {
+  text-decoration: none;
+}
+
+.reference {
+  margin-left: 350px;
+  font-size: 15px;
 }
