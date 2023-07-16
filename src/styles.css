@@ -1,0 +1,148 @@
+body {
+  margin: auto 350px;
+  border: 3px solid #38598b;
+  border-radius: 6px;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: #060608;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.image-background {
+  background-image: url("../images/clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1px;
+}
+.units {
+  font-size: 15px;
+  color: navy;
+  position: relative;
+  top: -1px;
+  text-decoration: none;
+  transition: All 200ms ease-in-out;
+}
+
+.units:hover {
+  text-decoration: underline;
+}
+
+.partition {
+  font-size: 15px;
+  position: relative;
+  top: -1px;
+}
+.col-4 {
+  text-align: center;
+  height: 140px;
+  width: 33.33333333%;
+  padding: 0px 6px;
+}
+
+.main-date {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.time {
+  color: #060608;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px;
+}
+
+.weather-details {
+  text-align: center;
+  list-style: none;
+  margin: 30px 390px 0 0;
+  color: #060608;
+  font-weight: 600;
+  padding: 0px;
+  height: 178px;
+  width: 188.328px;
+}
+
+.description {
+  text-transform: capitalize;
+}
+.city {
+  display: block;
+  margin: auto 25px;
+  width: 370px;
+}
+.search {
+  color: white;
+  background: #060608;
+  transition: all 200ms ease-in-out;
+  border-radius: 4px;
+  border: 2px solid #060608;
+}
+
+.search:hover {
+  background: #0b5edf;
+  cursor: pointer;
+}
+.btn-primary {
+  margin: -5px 0 0 55px;
+  background: #060608;
+  border: 2px solid #060608;
+}
+.row-container {
+  margin: 10px 40px;
+}
+.row {
+  text-align: center;
+  height: 140px;
+}
+
+.row-2 {
+  height: 30px;
+}
+
+.daily-weather-row1 {
+  height: 150px;
+}
+.units-daily-weather {
+  font-size: 12px;
+}
+.col-3 {
+  border: 0.5px solid #38598b;
+  color: #060608;
+  font-weight: 600;
+  width: 25%;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.col-7,
+.col-1 {
+  height: 30px;
+}
+
+.fa-cloud-sun,
+.fa-cloud,
+.fa-cloud-rain,
+.fa-sun {
+  font-size: 35px;
+  font-weight: 100px;
+  padding: 25px;
+  color: #113f67;
+}
+
+.fa-sun {
+  color: #ffc505;
+}
+
+.temperature {
+  font-size: 25px;
+  color: #060608;
+}
